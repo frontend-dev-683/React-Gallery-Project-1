@@ -1,16 +1,73 @@
-# React + Vite
+# React Gallery App 🖼️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+React Gallery App is a responsive image gallery built using React.js and Tailwind CSS.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The application fetches images from the Picsum Photos API and displays them in a clean and user-friendly gallery layout.
 
-## React Compiler
+Users can explore images, search and filter gallery content, and enjoy smooth transitions while browsing.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+- Responsive image gallery
+- Fetch images from REST API
+- Search and filter functionality
+- Loading state while fetching images
+- Smooth transitions and user-friendly interface
+- Dynamic gallery content
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technologies Used
+
+- React.js
+- JavaScript (ES6+)
+- Tailwind CSS
+- Axios
+- REST API
+- Vite
+- Git & GitHub
+
+## API
+
+This project uses the [Picsum Photos API](https://picsum.photos/) to fetch images.
+
+## Prerequisites
+
+Make sure you have installed:
+
+- Node.js
+- npm
+
+## Installation
+
+1. Clone the repository:
+
+   git clone https://github.com/frontend-dev-683/React-Gallery-Project-1.git
+
+2. Navigate to the project directory:
+
+   cd React-Gallery-Project-1
+
+3. Install dependencies:
+
+   npm install
+
+## Usage
+
+Start the development server:
+
+npm run dev
+
+Open the local URL provided in your terminal to view the application.
+
+## Build
+
+To create a production build:
+
+npm run build
+
+## Author
+
+**Talha Shakeel**
+
+GitHub: [frontend-dev-683](https://github.com/frontend-dev-683)
